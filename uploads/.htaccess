@@ -1,0 +1,4 @@
+# Block dotfiles (e.g. .fb_token_cache.json) but allow profile_pics images.
+<FilesMatch "^\.">
+  Require all denied
+</FilesMatch>

@@ -1,0 +1,6 @@
+<Files "firebase_credentials.json">
+  Require all denied
+</Files>
+<Files "*.json">
+  Require all denied
+</Files>

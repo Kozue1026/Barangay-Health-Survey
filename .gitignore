@@ -1,0 +1,14 @@
+config/firebase_credentials.json
+*.log
+# Local token cache (regenerated via OAuth)
+uploads/.fb_token_cache.json
+# Flutter build outputs (huge, regenerable)
+MIT app to flutter/flutter_resident/build/
+MIT app to flutter/flutter_resident/.dart_tool/
+MIT app to flutter/flutter_resident/.idea/
+*.apk
+# Duplicate archive (keep source folder instead)
+MIT app to flutter/Mobile App Source Code.zip
+# OS junk
+Thumbs.db
+.DS_Store

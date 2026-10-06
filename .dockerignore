@@ -1,0 +1,8 @@
+# Never bake secrets or local junk into the image.
+config/firebase_credentials.json
+uploads/.fb_token_cache.json
+*.log
+.git/
+MIT app to flutter/flutter_resident/build/
+MIT app to flutter/flutter_resident/.dart_tool/
+MIT app to flutter/Mobile App Source Code.zip

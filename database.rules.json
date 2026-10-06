@@ -1,0 +1,20 @@
+{
+  "rules": {
+    ".read": false,
+    ".write": false,
+    "admins": { ".read": false, ".write": false },
+    "residents": { ".read": false, ".write": false },
+    "resident_children": { ".read": false, ".write": false },
+    "surveys": { ".read": "auth != null", ".write": false },
+    "survey_questions": { ".read": "auth != null", ".write": false },
+    "survey_choices": { ".read": "auth != null", ".write": false },
+    "responses": { ".read": false, ".write": false },
+    "response_answers": { ".read": false, ".write": false },
+    "notifications": { ".read": false, ".write": false },
+    "activity_logs": { ".read": false, ".write": false },
+    "login_history": { ".read": false, ".write": false },
+    "_counters": { ".read": false, ".write": false },
+    "_indexes": { ".read": false, ".write": false },
+    "_meta": { ".read": false, ".write": false }
+  }
+}
